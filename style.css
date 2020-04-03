@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+
+body {
+	font-family: Montserrat, sans-serif;
+	font-size: 0.75rem;
+	color: #3b3b3b;
+	background-color: #f8f8f8;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Lalezar, sans-serif;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+form {
+	display: none;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+table {
+	margin-top: 1rem;
+	text-align: center;
+	font-weight: 700;
+}
+
+td {
+	min-width: 5rem;
+}
+
+.Baby-Peach {
+	color: #000;
+	background-color: #b5bf55;
+}
+
+.Lemmy {
+	color: #fff;
+	background-color: #e09c51;
+}
+
+.Dry-Bones {
+	color: #fff;
+	background-color: #b5baba;
+}
+
+.Toadette {
+	color: #fff;
+	background-color: #ff79c6;
+}
+
+.Koopa {
+	color: #000;
+	background-color: #07d559;
+}
+
+.Toad {
+	color: #fff;
+	background-color: #ff877e;
+}
+
+.Inkling-Girl {
+	color: #000;
+	background-color: #ffb86c;
+}
+
+.Peach {
+	color: #000;
+	background-color: #d2db6f;
+}
+
+.Inkling-Boy {
+	color: #000;
+	background-color: #8be9fd;
+}
+
+.Mario {
+	color: #fff;
+	background-color: #ff5555;
+}
+
+.Luigi {
+	color: #000;
+	background-color: #50fa7b;
+}
+
+.Metal-Mario {
+	color: #fff;
+	background-color: #777777;
+}
+
+.Boo {
+	color: #000;
+	background-color: #f8f8f2;
+}
+
+.Donkey-Kong {
+	color: #000;
+	background-color: #f1fa8c;
+}
+
+.Wario {
+	color: #fff;
+	background-color: #bd93f9;
+}
+
+.Bowser {
+	color: #fff;
+	background-color: #dc323b;
+}

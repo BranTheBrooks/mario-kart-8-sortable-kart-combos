@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+		integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header>
+		<img src="logo.png" alt="Mario Kart 8 Deluxe">
+		<h1>Sortable Kart Combinations</h1>
+	</header>
+
+	<button class="pure-button form-button" c>Create New Column</button>
+	<form class="pure-form">
+		<h2>New Column</h2>
+		<fieldset>
+			<legend>What kind of column do you want to make?</legend>
+			<ul>
+				<li>
+					<input class="radio" type="radio" id="minimum" name="column-type" value="minimum" checked>
+					<label for="minimum">Minimum</label>
+				</li>
+				<li>
+					<input class="radio" type="radio" id="sum" name="column-type" value="sum">
+					<label for="sum">Sum</label>
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>What stats do you want to include?</legend>
+			<ul class="box-list">
+				<li>
+					<input class="box" type="checkbox" id="Acceleration" name="Acceleration" value="Acceleration">
+					<label for="Acceleration">Acceleration</label>
+				</li>
+				<li>
+					<input class="box" type="checkbox" id="Traction" name="Traction" value="Traction">
+					<label for="Traction">Traction</label>
+				</li>
+			</ul>
+		</fieldset>
+		<p>
+			<button type="submit" class="pure-button submit-form">Create</button>
+		</p>
+	</form>
+
+	<div class="wrapper"></div>
+
+	<script src="./combos.js"></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
