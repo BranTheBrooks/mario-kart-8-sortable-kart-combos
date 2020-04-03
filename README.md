@@ -1,1 +1,1 @@
-# mario-kart-8-sortable-kart-combos
+# Mario Kart 8 Sortable Kart Combos
