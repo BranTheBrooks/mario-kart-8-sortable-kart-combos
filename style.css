@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
 
 body {
-	font-family: Montserrat, sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 0.75rem;
 	color: #3b3b3b;
 	background-color: #f8f8f8;
@@ -32,21 +32,20 @@ ul {
 table {
 	margin-top: 1rem;
 	text-align: center;
-	font-weight: 700;
 }
 
 td {
-	min-width: 5rem;
+	max-width: 4rem;
 }
 
 .Baby-Peach {
 	color: #000;
-	background-color: #b5bf55;
+	background-color: #d2db6f;
 }
 
 .Lemmy {
-	color: #fff;
-	background-color: #e09c51;
+	color: #000;
+	background-color: #ffb86c;
 }
 
 .Dry-Bones {
@@ -61,7 +60,7 @@ td {
 
 .Koopa {
 	color: #000;
-	background-color: #07d559;
+	background-color: #50fa7b;
 }
 
 .Toad {
@@ -70,13 +69,13 @@ td {
 }
 
 .Inkling-Girl {
-	color: #000;
-	background-color: #ffb86c;
+	color: #fff;
+	background-color: #e09c51;
 }
 
 .Peach {
 	color: #000;
-	background-color: #d2db6f;
+	background-color: #b5bf55;
 }
 
 .Inkling-Boy {
@@ -86,12 +85,12 @@ td {
 
 .Mario {
 	color: #fff;
-	background-color: #ff5555;
+	background-color: #dc323b;
 }
 
 .Luigi {
 	color: #000;
-	background-color: #50fa7b;
+	background-color: #07d559;
 }
 
 .Metal-Mario {
@@ -116,5 +115,5 @@ td {
 
 .Bowser {
 	color: #fff;
-	background-color: #dc323b;
+	background-color: #ff5555;
 }

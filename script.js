@@ -7,7 +7,7 @@ const keys = [
 	"Speed W",
 	"Speed A",
 	"Speed AG",
-	"Acceleration",
+	"Accel",
 	"Weight",
 	"Handling G",
 	"Handling W",
@@ -24,7 +24,7 @@ const sort = key => {
 
 const shorten = () => {
 	const short = [];
-	for (i = 0; i < 300; i++) {
+	for (i = 0; i < 2000; i++) {
 		short.push(combos[i]);
 	}
 	return short;
@@ -134,54 +134,6 @@ const display = () => {
 		table.append(row);
 	}
 	wrapper.append(table);
-
-
-
-	/*
-		const minForm = document.createElement("div");
-		minForm.classList.add("minForm");
-		minForm.style.display = "none";
-
-		for (i = 4; i < keys.length; i++) {
-			const key = keys[i];
-
-			const p = document.createElement("p");
-
-			const box = document.createElement("input");
-			box.type = "checkbox";
-			box.name = key;
-			box.value = key;
-			box.classList.add("box");
-			p.append(box);
-
-			const label = document.createElement("label");
-			label.for = key;
-			label.append(key);
-			p.append(label);
-
-			minForm.append(p);
-		}
-
-		minButton.onclick = () => minForm.style.display = minForm.style.display === "none" ? "block" : "none";
-
-		const submit = document.createElement("button");
-		submit.append("Submit");
-
-		submit.onclick = () => {
-			const boxes = minForm.querySelectorAll(".box");
-			const checkedBoxes = [];
-			for (i = 0; i < boxes.length; i++) {
-				const box = boxes[i];
-				if (box["checked"]) {
-					checkedBoxes.push(box["value"]);
-				}
-			}
-			minimum(checkedBoxes);
-		};
-		minForm.append(submit);
-
-		main.append(minForm);
-	*/
 };
 
 const populateForm = () => {
