@@ -3,17 +3,17 @@ const keys = [
 	"Body",
 	"Tire",
 	"Glider",
-	"Speed G",
-	"Speed W",
-	"Speed A",
+	"Speed Ground",
+	"Speed Water",
+	"Speed Air",
 	"Speed AG",
 	"Accel",
 	"Weight",
-	"Handling G",
-	"Handling W",
-	"Handling A",
-	"Handling AG",
-	"Traction",
+	"Handle Ground",
+	"Handle Water",
+	"Handle Air",
+	"Handle AG",
+	"Tract",
 	"Mini-Turbo",
 	"Inside Drift",
 ];
@@ -24,7 +24,7 @@ const sort = key => {
 
 const shorten = () => {
 	const short = [];
-	for (i = 0; i < 2000; i++) {
+	for (i = 0; i < 300; i++) {
 		short.push(combos[i]);
 	}
 	return short;
@@ -54,7 +54,7 @@ const minimum = array => {
 		const stat = Math.min(...stats);
 		combos[c][newkey] = stat;
 	}
-	keys.splice(4, 0, newkey);
+	keys.push(newkey);
 
 	sort(newkey);
 	display();
@@ -76,7 +76,7 @@ const combine = array => {
 		}
 		combos[c][newkey] = stat;
 	}
-	keys.splice(4, 0, newkey);
+	keys.push(newkey);
 
 	sort(newkey);
 	display();
@@ -97,7 +97,6 @@ const display = () => {
 	};
 
 	const table = document.createElement("table");
-	table.classList.add("pure-table");
 
 	const header = document.createElement("tr");
 	for (c = 0; c < 4; c++) {
@@ -112,10 +111,10 @@ const display = () => {
 		const button = document.createElement("button");
 		button.onclick = () => sortBy(key);
 		button.append(key);
-		button.classList.add("pure-button");
 		cell.append(button);
 		header.append(cell);
 	}
+	header.classList.add("key-row");
 	table.append(header);
 
 	const list = shorten();

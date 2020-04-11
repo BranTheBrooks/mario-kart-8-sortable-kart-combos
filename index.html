@@ -3,26 +3,25 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
-		integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 
 <body>
-	<header>
-		<img src="logo.png" alt="Mario Kart 8 Deluxe">
-		<h1>Sortable Kart Combos</h1>
-	</header>
+	<img src="logo.png" alt="Mario Kart 8 Deluxe">
+	<h1>Sortable Kart Combos</h1>
 
-	<button class="pure-button form-button" c>Create New Column</button>
-	<form class="pure-form">
+	<button class="form-button">Create New Column</button>
+	<form>
 		<h2>New Column</h2>
 		<fieldset>
-			<legend>What kind of column do you want to make?</legend>
+			<legend>
+				<span class="question">What kind of column do you want to make?</span>
+			</legend>
 			<ul>
 				<li>
-					<input class="radio" type="radio" id="minimum" name="column-type" value="minimum" checked>
+					<input class="radio" type="radio" id="minimum" name="column-type"
+						value="minimum" checked>
 					<label for="minimum">Minimum</label>
 				</li>
 				<li>
@@ -32,13 +31,15 @@
 			</ul>
 		</fieldset>
 		<fieldset>
-			<legend>What stats do you want to include?</legend>
+			<legend>
+				<span class="question">What stats do you want to include? </span>
+			</legend>
 			<ul class="box-list">
 
 			</ul>
 		</fieldset>
 		<p>
-			<button type="submit" class="pure-button submit-form">Create</button>
+			<button type="submit" class="submit-form">Create</button>
 		</p>
 	</form>
 

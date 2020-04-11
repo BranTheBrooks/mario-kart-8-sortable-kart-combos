@@ -3,39 +3,61 @@
 
 body {
 	font-family: Roboto, sans-serif;
-	font-size: 0.75rem;
-	color: #3b3b3b;
-	background-color: #f8f8f8;
+	color: #f1f1f1;
+	background-color: #000;
 }
 
 img {
-	max-width: 750px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1 {
+	text-align: center;
 	font-family: Lalezar, sans-serif;
-	font-size: 4.0rem;
 	text-transform: uppercase;
 	font-weight: 100;
+}
+
+
+button {
+	height: 3rem;
+	font-size: inherit;
+	font-weight: inherit;
+	background-color: #e2e2e2;
+	border: none;
 }
 
 form {
 	display: none;
 }
 
+
 ul {
-	margin-left: 0;
-	padding-left: 0;
 	list-style-type: none;
 }
 
 table {
 	margin-top: 1rem;
+	font-size: 0.75rem;
 	text-align: center;
+	border-collapse: collapse;
+	width: 100%
+}
+
+th {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	font-weight: 700;
+	color: #000;
+	background-color: #fff;
 }
 
 td {
-	max-width: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .Baby-Peach {
