@@ -199,4 +199,4 @@ const populateForm = () => {
 
 populateForm();
 
-display(combos);
+display();

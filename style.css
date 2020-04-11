@@ -8,6 +8,7 @@ body {
 }
 
 img {
+	max-width: 480px;
 	width: 50%;
 	display: block;
 	margin-left: auto;
