@@ -28,10 +28,16 @@ button {
 	font-weight: inherit;
 	background-color: #e2e2e2;
 	border: none;
+	border-radius: 5px;
+}
+
+.show-form {
+	margin-bottom: 1rem;
 }
 
 form {
 	display: none;
+	text-align: right;
 }
 
 ul {
@@ -62,11 +68,6 @@ td {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	border-bottom: 1px solid #fff;
-}
-
-.form-button {
-	margin-bottom: 1rem;
-	float: right;
 }
 
 .Baby-Peach {

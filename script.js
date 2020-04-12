@@ -180,7 +180,7 @@ const populateForm = () => {
 		}
 	};
 
-	const formButton = document.querySelector(".form-button");
+	const formButton = document.querySelector(".show-form");
 
 	formButton.onclick = () => {
 		if (form.style.display === "block") {
