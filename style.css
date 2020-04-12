@@ -26,18 +26,21 @@ h1 {
 button {
 	font-size: inherit;
 	font-weight: inherit;
-	background-color: #e2e2e2;
 	border: none;
-	border-radius: 5px;
+	background-color: #fff;
+	border-radius: 2px;
 }
 
-.show-form {
-	margin-bottom: 1rem;
+.form-button {
+	padding: 0.5rem;
 }
 
 form {
 	display: none;
-	text-align: right;
+}
+
+fieldset {
+	margin-bottom: 1rem;
 }
 
 ul {
@@ -62,6 +65,7 @@ th {
 
 th button {
 	min-height: 3rem;
+	background-color: #d4d4d4;
 }
 
 td {
