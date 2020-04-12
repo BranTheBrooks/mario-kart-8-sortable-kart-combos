@@ -19,12 +19,12 @@ h1 {
 	text-align: center;
 	font-family: Lalezar, sans-serif;
 	text-transform: uppercase;
+	font-size: 3rem;
 	font-weight: 100;
 }
 
 
 button {
-	height: 3rem;
 	font-size: inherit;
 	font-weight: inherit;
 	background-color: #e2e2e2;
@@ -56,9 +56,18 @@ th {
 	background-color: #fff;
 }
 
+th button {
+	min-height: 3rem;
+}
+
 td {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+.form-button {
+	margin-bottom: 1rem;
+	float: right;
 }
 
 .Baby-Peach {
