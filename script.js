@@ -140,7 +140,7 @@ const populateForm = () => {
 
 	const boxList = document.querySelector(".box-list")
 
-	for (i = 4; i < keys.length; i++) {
+	for (i = 3; i < keys.length; i++) {
 		const key = keys[i];
 
 		const item = document.createElement("li");
