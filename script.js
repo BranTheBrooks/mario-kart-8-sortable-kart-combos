@@ -99,7 +99,7 @@ const display = () => {
 	const table = document.createElement("table");
 
 	const header = document.createElement("tr");
-	for (c = 0; c < 4; c++) {
+	for (c = 0; c < 3; c++) {
 		const key = keys[c];
 		const cell = document.createElement("th");
 		cell.append(key);
