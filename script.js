@@ -2,7 +2,7 @@ const keys = [
 	"Driver",
 	"Body",
 	"Tire",
-	"Glider",
+//	"Glider",
 	"Speed Ground",
 	"Speed Water",
 	"Speed Air",
