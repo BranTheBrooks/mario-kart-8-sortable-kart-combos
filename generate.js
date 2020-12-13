@@ -763,7 +763,7 @@ for (d = 0; d < drivers.length; d++) {
 
 				for (s = 0; s < stats.length; s++) {
 					const key = stats[s];
-					combo[key] = 3 + driver[key] + body[key] + tire[key] + /*glider[key]*/;
+					combo[key] = 3 + driver[key] + body[key] + tire[key] /*+ glider[key]*/;
 				}
 
 				combo["Inside Drift"] = body["Inside Drift"];
