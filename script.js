@@ -2,7 +2,7 @@ const keys = [
 	"Driver",
 	"Body",
 	"Tire",
-//	"Glider",
+	"Glider",
 	"Speed Ground",
 	"Speed Water",
 	"Speed Air",
@@ -99,7 +99,7 @@ const display = () => {
 	const table = document.createElement("table");
 
 	const header = document.createElement("tr");
-	for (c = 0; c < 3; c++) {
+	for (c = 0; c < 4; c++) {
 		const key = keys[c];
 		const cell = document.createElement("th");
 		cell.append(key);
@@ -140,7 +140,7 @@ const populateForm = () => {
 
 	const boxList = document.querySelector(".box-list")
 
-	for (i = 3; i < keys.length; i++) {
+	for (i = 4; i < keys.length; i++) {
 		const key = keys[i];
 
 		const item = document.createElement("li");
