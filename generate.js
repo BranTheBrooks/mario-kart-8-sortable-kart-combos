@@ -731,15 +731,15 @@ const stats = [
 const initialSort = [
 	"Handle Air",
 	"Handle Water",
-	"Handle Ground",
 	"Handle AG",
+	"Handle Ground",
 	"Tract",
+	"Mini-Turbo",
 	"Speed Air",
 	"Speed Water",
-	"Speed Ground",
 	"Speed AG",
-	"Accel",
-	"Mini-Turbo"
+	"Speed Ground",
+	"Accel"
 ];
 
 const combos = [];
