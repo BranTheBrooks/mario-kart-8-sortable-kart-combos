@@ -747,29 +747,29 @@ const combos = [];
 for (d = 0; d < drivers.length; d++) {
 	for (b = 0; b < bodies.length; b++) {
 		for (t = 0; t < tires.length; t++) {
-//			for (g = 0; g < gliders.length; g++) {
+			for (g = 0; g < gliders.length; g++) {
 
 				const driver = drivers[d];
 				const body = bodies[b];
 				const tire = tires[t];
-//				const glider = gliders[g];
+				const glider = gliders[g];
 
 				const combo = {
 					"Driver": driver["Name"],
 					"Body": body["Name"],
 					"Tire": tire["Name"],
-//					"Glider": glider["Name"]
+					"Glider": glider["Name"]
 				}
 
 				for (s = 0; s < stats.length; s++) {
 					const key = stats[s];
-					combo[key] = 3 + driver[key] + body[key] + tire[key] /*+ glider[key]*/;
+					combo[key] = 3 + driver[key] + body[key] + tire[key] + glider[key];
 				}
 
 				combo["Inside Drift"] = body["Inside Drift"];
 
 				combos.push(combo);
-//			}
+			}
 		}
 	}
 }
@@ -779,12 +779,3 @@ for (i = 0; i < initialSort.length; i++) {
 	const sort = (a, b) => b[key] - a[key];
 	combos.sort(sort);
 };
-/*
-require('fs').writeFile('./combos.json', JSON.stringify(combos),
-	function (err) {
-		if (err) {
-			console.error('ERROR!');
-		}
-	}
-);
-*/
