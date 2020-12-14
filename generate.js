@@ -731,14 +731,14 @@ const stats = [
 const initialSort = [
 	"Handle Air",
 	"Handle Water",
-	"Handle AG",
 	"Handle Ground",
+	"Handle AG",
 	"Tract",
 	"Mini-Turbo",
 	"Speed Air",
 	"Speed Water",
-	"Speed AG",
 	"Speed Ground",
+	"Speed AG",
 	"Accel"
 ];
 
